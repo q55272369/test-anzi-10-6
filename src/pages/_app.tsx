@@ -39,8 +39,8 @@ function BlogApp({ Component, pageProps, router }: AppPropsWithLayout) {
           name="viewport"
           content="width=device-width, initial-scale=1, viewport-fit=cover"
         />
-        <title>安子璠的个人主页</title>
-        <meta name="description" content="异次元の机智君" />
+        <title>1HO的个人主页</title>
+        <meta name="description" content=">1HO收藏馆" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
