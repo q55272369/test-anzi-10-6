@@ -19,22 +19,29 @@ const PostGrid = ({ posts, narrow }: PostGridProps) => {
   return (
     <ul className="my-4 grid grid-cols-6 gap-[1.625rem] lg:my-8 lg:gap-10">
       {posts.slice(0, LARGE).map((post) => (
-        <li key={post.slug} className="col-span-6">
-          <GridPostCard post={post} size="large" />
+        <li key={post.slug} 
+        // className="col-span-6"
+         className="col-span-6 md:col-span-3 lg:col-span-2"
+
+        >
+          {/* <GridPostCard post={post} size="large" /> */}
+           <GridPostCard post={post} size="small" />
         </li>
       ))}
       {!narrow &&
         posts.slice(LARGE, LARGE + MEDIUM).map((post) => (
           <li
             key={post.slug}
-            className="col-span-6 md:col-span-3 "
+            // className="col-span-6 md:col-span-3 "
+            className="col-span-6 md:col-span-3 lg:col-span-2"
             data-aos="fade-up"
           >
-            {isWidescreen ? (
+            {/* {isWidescreen ? (
               <GridPostCard post={post} size="medium" />
             ) : (
               <GridPostCard post={post} size="small" />
-            )}
+            )} */}
+            <GridPostCard post={post} size="small" />
           </li>
         ))}
       {posts
