@@ -85,7 +85,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
             'md:bg-neutral-100 md:dark:bg-neutral-800'
           )}
         >
-          <div className="scrollbar-hide flex h-full w-full flex-row items-center justify-center gap-x-1.5 overflow-scroll px-3.5 pt-1 pb-3 font-medium md:justify-center md:gap-x-1 md:px-3 md:py-2 lg:gap-x-3 lg:px-5 lg:py-3 lg:text-sm">
+          <div className="scrollbar-hide flex h-full w-full flex-row items-center justify-center  overflow-scroll px-3.5 pt-1 pb-3 font-medium md:justify-center md:gap-x-1 md:px-3 md:py-2 lg:gap-x-3 lg:px-5 lg:py-3 lg:text-sm">
             {/* {data.links.map((link, index) => (
               console.log(link,"-------------------")
              
@@ -113,6 +113,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'上车说明'}
                 </p>
+                <span>👀</span>
               </Link>
 
               <Link
@@ -138,6 +139,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'推广赚钱'}
                 </p>
+                <span>🧊</span>
               </Link>
 
                <Link
@@ -163,6 +165,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'下载说明'}
                 </p>
+                <span>👀</span>
               </Link>
           </div>
         </div>
