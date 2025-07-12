@@ -85,7 +85,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
             'md:bg-neutral-100 md:dark:bg-neutral-800'
           )}
         >
-          <div className="scrollbar-hide flex h-full w-full flex-row items-center justify-between gap-x-1.5 overflow-scroll px-3.5 pt-1 pb-3 font-medium md:justify-start md:gap-x-1 md:px-3 md:py-2 lg:gap-x-3 lg:px-5 lg:py-3 lg:text-sm">
+          <div className="scrollbar-hide flex h-full w-full flex-row items-center justify-center gap-x-1.5 overflow-scroll px-3.5 pt-1 pb-3 font-medium md:justify-center md:gap-x-1 md:px-3 md:py-2 lg:gap-x-3 lg:px-5 lg:py-3 lg:text-sm">
             {/* {data.links.map((link, index) => (
               console.log(link,"-------------------")
              
@@ -106,7 +106,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: `linear-gradient(to top right, '#0d1117', '#0d2235'}) !important`,
+                  backgroundImage: `linear-gradient(to top right, '#0d1117', '#0d2235') !important`,
                 }}
               >
                 <LinkIcon icon={'IoLogoGithub'} hasId={!!true} />
@@ -131,7 +131,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: `linear-gradient(to top right, '#D7161C', '#FC281A'}) !important`,
+                  backgroundImage: `linear-gradient(to top right, '#D7161C', '#FC281A') !important`,
                 }}
               >
                 <LinkIcon icon={'/static/sspaiOutline.svg'} hasId={!!true} />
@@ -156,7 +156,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: `linear-gradient(to top right, '#0a69c6', '#0088fa'}) !important`,
+                  backgroundImage: `linear-gradient(to top right, '#0a69c6', '#0088fa') !important`,
                 }}
               >
                 <LinkIcon icon={'IoLogoLinkedin'} hasId={!!true} />
