@@ -85,7 +85,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
             'md:bg-neutral-100 md:dark:bg-neutral-800'
           )}
         >
-          <div className="scrollbar-hide flex h-full w-full flex-row items-center justify-center  overflow-scroll px-3.5 pt-1 pb-3 font-medium md:justify-center md:gap-x-1 md:px-3 md:py-2 lg:gap-x-3 lg:px-5 lg:py-3 lg:text-sm">
+          <div className="scrollbar-hide flex h-full w-full flex-row items-center justify-center  overflow-scroll px-3.5 pt-1 pb-3 font-medium md:justify-center md:gap-x-1  md:py-2 lg:px-5 lg:py-3 lg:text-sm">
             {/* {data.links.map((link, index) => (
               console.log(link,"-------------------")
              
