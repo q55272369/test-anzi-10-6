@@ -106,7 +106,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: `linear-gradient(to top right, '#0d1117', '#0d2235') !important`,
+                  backgroundImage: 'linear-gradient(to top right, #0d1117, #0d2235) !important',
                 }}
               >
                 <LinkIcon icon={'IoLogoGithub'} hasId={!!true} />
@@ -131,7 +131,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: `linear-gradient(to top right, '#D7161C', '#FC281A') !important`,
+                  backgroundImage: 'linear-gradient(to top right, #D7161C, #FC281A) !important',
                 }}
               >
                 <LinkIcon icon={'/static/sspaiOutline.svg'} hasId={!!true} />
@@ -156,7 +156,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: `linear-gradient(to top right, '#0a69c6', '#0088fa') !important`,
+                  backgroundImage: 'linear-gradient(to top right, #0a69c6, #0088fa) !important',
                 }}
               >
                 <LinkIcon icon={'IoLogoLinkedin'} hasId={!!true} />
