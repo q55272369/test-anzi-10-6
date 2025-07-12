@@ -1,6 +1,5 @@
 {
   "name": "anzifan.com",
-  "packageManager": "yarn@1.22.22",
   "version": "2.0.0",
   "homepage": "https://github.com/MannyCooper/anzifan.com.git",
   "license": "MIT",
@@ -40,6 +39,7 @@
     "better-react-mathjax": "^2.0.2",
     "fast-average-color-node": "^2.6.0",
     "feed": "^4.2.2",
+    "glob": "11.0.3",
     "googleapis": "^110.0.0",
     "gray-matter": "^4.0.3",
     "he": "^1.2.0",
