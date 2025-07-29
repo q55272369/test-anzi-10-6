@@ -72,7 +72,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
               {data.name}
             </h1>
             <h2 className="hidden text-sm md:line-clamp-1 lg:text-sm">
-              {'持续更新中'}
+              {data.description}
             </h2>
           </div>
         </div>
