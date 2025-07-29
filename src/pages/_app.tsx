@@ -18,6 +18,7 @@ type AppPropsWithLayout = AppProps & {
 }
 
 function BlogApp({ Component, pageProps, router }: AppPropsWithLayout) {
+  console.log(pageProps,"-----------pageProps----------")
   const getLayout =
     Component.getLayout ?? ((page) => <BlogLayout>{page}</BlogLayout>)
 
@@ -39,8 +40,8 @@ function BlogApp({ Component, pageProps, router }: AppPropsWithLayout) {
           name="viewport"
           content="width=device-width, initial-scale=1, viewport-fit=cover"
         />
-        <title>1HO的个人主页</title>
-        <meta name="description" content=">1HO收藏馆" />
+        <title>{pageProps?.siteTitle?.text}</title>
+        <meta name="description" content="异次元の机智君" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
