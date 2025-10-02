@@ -129,7 +129,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: 'linear-gradient(to top right, #D7161C, #FC281A) !important',
+                  backgroundImage: 'linear-gradient(to top right, #FF69B4, #bf65ad) !important',
                 }}
               >
                 <LinkIcon icon={'/static/sspaiOutline.svg'} hasId={!!true} />
