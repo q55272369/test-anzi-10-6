@@ -5,7 +5,7 @@ import PostGrid from '../PostGrid'
 export const MainPostsCollection = ({ posts }: { posts: Post[] }) => {
   return (
     <>
-      <LargeTitle title="Latest Posts 💫" />
+      <LargeTitle title="最新发布" />
       <PostGrid posts={posts} />
     </>
   )

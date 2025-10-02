@@ -20,7 +20,7 @@ export const MorePostsCollection = ({ posts }: { posts: Post[] }) => {
     <div className="bg-white dark:bg-background-dark">
       <ContainerLayout>
         <div className="py-2 md:py-12">
-          <LargeTitle title="More Posts 🔭" />
+          <LargeTitle title="更多内容" />
           {postsToDisplay.length <= 0 ? (
             <Empty />
           ) : (
