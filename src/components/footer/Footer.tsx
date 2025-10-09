@@ -84,7 +84,7 @@ const Footer = ({
           <div className="flex items-end justify-between w-full pb-2 my-2 text-xs  border-footer gap-x-2 dark:border-neutral-700">
             <div className="flex flex-col gap-2 shrink-0">
               <div className="flex items-center">
-                <a href='https://1ho.online'>Powered by 壹号资源联盟</a>
+                <a href='https://pro-plus.top/'>Powered by PRO+</a>
                 {/* <div className="inline-flex px-2 py-1 mx-2 space-x-2 rounded-full place-items-center bg-neutral-200 dark:bg-neutral-700">
                   {tools.map((tool) => (
                     <Link
