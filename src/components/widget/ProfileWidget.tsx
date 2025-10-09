@@ -106,11 +106,11 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                   backgroundImage: 'linear-gradient(to top right, #0d1117, #0d2235) !important',
                 }}
               >
-                <LinkIcon icon={'CiFolderOn'} hasId={!!true} />
+                <LinkIcon icon={'PiCursorClickFill'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'资源介绍'}
                 </p>
-                <span>👀</span>
+                <span>👈</span>
               </Link>
 
               <Link
@@ -136,7 +136,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'入会说明'}
                 </p>
-                <span>👈</span>
+                <span>👑</span>
               </Link>
 
                <Link
