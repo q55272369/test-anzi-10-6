@@ -132,7 +132,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                   backgroundImage: 'linear-gradient(to top right, #FF69B4, #bf65ad) !important',
                 }}
               >
-                <LinkIcon icon={'FaCrown'} hasId={!!true} />
+                <LinkIcon icon={'PiCrownFill'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'入会说明'}
                 </p>
