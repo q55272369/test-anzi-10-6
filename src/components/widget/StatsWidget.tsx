@@ -30,7 +30,7 @@ export const StatsWidget = ({ data }: { data: BlogStats }) => {
           )}
         >
           <div className="scrollbar-hide flex h-full w-full flex-col items-center justify-between gap-x-1.5 overflow-scroll px-3.5 pt-1 pb-3 font-medium md:justify-start md:gap-x-1 md:px-3 md:py-2 lg:gap-x-3 lg:px-5 lg:py-3 lg:text-sm">
-          <button onClick={()=>{window.open('https://login.1ho.online')}} type="submit" className="flex w-full justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400" 
+          <button onClick={()=>{window.open('https://pro-plus.top')}} type="submit" className="flex w-full justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400" 
               >立即加入</button>
           </div>
         </div>
