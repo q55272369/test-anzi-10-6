@@ -136,7 +136,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'入会说明'}
                 </p>
-                <span>💎</span>
+                <span>👀</span>
               </Link>
 
                <Link
@@ -160,7 +160,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
               >
                 <LinkIcon icon={'FaDownload'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'下载说明'}
+                  {'下载方式'}
                 </p>
                 <span>👀</span>
               </Link>
