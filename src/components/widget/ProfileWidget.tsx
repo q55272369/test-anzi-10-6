@@ -132,11 +132,11 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                   backgroundImage: 'linear-gradient(to top right, #FF69B4, #bf65ad) !important',
                 }}
               >
-                <LinkIcon icon={'/static/sspaiOutline.svg'} hasId={!!true} />
+                <LinkIcon icon={'LiaCrownSolid'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'推广赚钱'}
+                  {'入会说明'}
                 </p>
-                <span>🧊</span>
+                <span>💎</span>
               </Link>
 
                <Link
@@ -158,7 +158,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                   backgroundImage: 'linear-gradient(to top right, #0a69c6, #0088fa) !important',
                 }}
               >
-                <LinkIcon icon={'IoLogoLinkedin'} hasId={!!true} />
+                <LinkIcon icon={'FaDownload'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'下载说明'}
                 </p>
