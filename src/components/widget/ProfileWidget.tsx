@@ -115,7 +115,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
 
               <Link
                 key={'bbb'}
-                href={'/shouhou'}
+                href={'/pay'}
                 // target="_blank"
                 rel="noopener noreferrer"
                 className={classNames(
