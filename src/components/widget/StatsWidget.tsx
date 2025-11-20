@@ -19,7 +19,7 @@ export const StatsWidget = ({ data }: { data: BlogStats }) => {
         
            <div className='flex'>
            <span className="md:text-3xl md:font-medium lg:text-3xl mr-3 text-red-600">PRO+</span>
-           <span className="md:text-3xl md:font-medium  font-bold">会员计划已推出</span>
+           <span className="md:text-3xl md:font-medium  font-bold">商家计划已推出</span>
            </div>
          
         </div>
