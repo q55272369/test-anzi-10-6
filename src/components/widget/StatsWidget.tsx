@@ -18,8 +18,8 @@ export const StatsWidget = ({ data }: { data: BlogStats }) => {
         <div className="flex h-[58%] w-full flex-row items-start overflow-hidden px-3.5 pt-5  md:flex-row md:items-center md:justify-center md:space-x-3 md:px-3 md:py-2.5 lg:space-x-4 lg:px-5 lg:py-4">
         
            <div className='flex'>
-           <span className="md:text-3xl md:font-medium lg:text-3xl mr-3 text-red-600">PRO+</span>
-           <span className="md:text-3xl md:font-medium  font-bold">会员一站式已推出</span>
+           <span className="md:text-3xl md:font-medium lg:text-3xl mr-3 text-red-600">滴滴</span>
+           <span className="md:text-3xl md:font-medium  font-bold">仓库已更新！</span>
            </div>
          
         </div>
@@ -31,7 +31,7 @@ export const StatsWidget = ({ data }: { data: BlogStats }) => {
         >
           <div className="scrollbar-hide flex h-full w-full flex-col items-center justify-between gap-x-1.5 overflow-scroll px-3.5 pt-1 pb-3 font-medium md:justify-start md:gap-x-1 md:px-3 md:py-2 lg:gap-x-3 lg:px-5 lg:py-3 lg:text-sm">
           <button onClick={()=>{window.open('https://login.1zs.top/')}} type="submit" className="flex w-full justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400" 
-              >立即登陆</button>
+              >登陆</button>
           </div>
         </div>
         </div>
