@@ -19,7 +19,7 @@ export const StatsWidget = ({ data }: { data: BlogStats }) => {
         
            <div className='flex'>
            <span className="md:text-3xl md:font-medium lg:text-3xl mr-3 text-red-600">滴滴~</span>
-           <span className="md:text-3xl md:font-medium  font-bold">库存已更新！</span>
+           <span className="md:text-3xl md:font-medium  font-bold">您的库存已送达！</span>
            </div>
          
         </div>
