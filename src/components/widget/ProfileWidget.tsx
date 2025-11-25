@@ -134,7 +134,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
               >
                 <LinkIcon icon={'PiCrownFill'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'入会说明'}
+                  {'会员说明'}
                 </p>
                 <span>👑</span>
               </Link>
