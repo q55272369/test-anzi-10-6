@@ -82,7 +82,7 @@ const CONFIG: BlogConfig = {
   NEXT_REVALIDATE_SECONDS: 60,
   FORCE_UPDATE_TIME: 1620000000000,
   DEFAULT_POST_COVER:
-    'https://cdn.dribbble.com/users/3167939/screenshots/10422336/media/b618a0e73996c3b24b58b2db1c881ee3.png',
+    'https://new.1image.top/1760496609163.jpg',
   PROGRESS_BAR_COLOR: '#e5e5e590',
   HOME_POSTS_COUNT: {
     LARGE: 1,
