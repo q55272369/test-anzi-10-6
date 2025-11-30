@@ -110,7 +110,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'资源介绍'}
                 </p>
-                <span>🎉</span>
+                <span>👋</span>
               </Link>
 
               <Link
@@ -132,11 +132,11 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                   backgroundImage: 'linear-gradient(to top right, #FF69B4, #bf65ad) !important',
                 }}
               >
-                <LinkIcon icon={'PiCrownFill'} hasId={!!true} />
+                <LinkIcon icon={'AiOutlineCloudDownload'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'下载说明'}
                 </p>
-                <span>👑</span>
+                <span>📥</span>
               </Link>
 
                <Link
