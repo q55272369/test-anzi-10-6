@@ -103,19 +103,19 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: 'linear-gradient(to top right, #0d1117, #0d2235) !important',
+                  backgroundImage: 'linear-gradient(to top right, #ffda69, #d1ae45) !important',
                 }}
               >
-                <LinkIcon icon={'FaStar'} hasId={!!true} />
+                <LinkIcon icon={'IoDiamondOutline'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'资源介绍'}
+                  {'入会说明'}
                 </p>
-                <span>🎉</span>
+                <span>👑</span>
               </Link>
 
               <Link
                 key={'bbb'}
-                href={'/pay'}
+                href={'/download'}
                 // target="_blank"
                 rel="noopener noreferrer"
                 className={classNames(
@@ -132,16 +132,16 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                   backgroundImage: 'linear-gradient(to top right, #FF69B4, #bf65ad) !important',
                 }}
               >
-                <LinkIcon icon={'PiCrownFill'} hasId={!!true} />
+                <LinkIcon icon={'FaCloudDownloadAlt'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'会员说明'}
+                  {'下载说明'}
                 </p>
-                <span>👑</span>
+                <span>📥</span>
               </Link>
 
                <Link
                 key={'ccc'}
-                href={'/download'}
+                href={'/friends'}
                 // target="_blank"
                 rel="noopener noreferrer"
                 className={classNames(
@@ -158,11 +158,11 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                   backgroundImage: 'linear-gradient(to top right, #0a69c6, #0088fa) !important',
                 }}
               >
-                <LinkIcon icon={'FaDownload'} hasId={!!true} />
+                <LinkIcon icon={'IoGridOutline'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'下载方式'}
+                  {'资源广场'}
                 </p>
-                <span>👀</span>
+                <span>🌟</span>
               </Link>
           </div>
         </div>
