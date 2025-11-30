@@ -115,7 +115,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
 
               <Link
                 key={'bbb'}
-                href={'/pay'}
+                href={'/download'}
                 // target="_blank"
                 rel="noopener noreferrer"
                 className={classNames(
@@ -141,7 +141,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
 
                <Link
                 key={'ccc'}
-                href={'/download'}
+                href={'/friends'}
                 // target="_blank"
                 rel="noopener noreferrer"
                 className={classNames(
