@@ -129,7 +129,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: 'linear-gradient(to top right, #1d1f29, #2a5eaa) !important',
+                  backgroundImage: 'linear-gradient(to top right, #eb9b34, #f0a94d) !important',
                 }}
               >
                 <LinkIcon icon={'IoMdCloudDownload'} hasId={!!true} />
