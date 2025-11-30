@@ -134,7 +134,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
               >
                 <LinkIcon icon={'PiCrownFill'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'会员说明'}
+                  {'下载说明'}
                 </p>
                 <span>👑</span>
               </Link>
@@ -158,9 +158,9 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                   backgroundImage: 'linear-gradient(to top right, #0a69c6, #0088fa) !important',
                 }}
               >
-                <LinkIcon icon={'FaDownload'} hasId={!!true} />
+                <LinkIcon icon={'HiOutlineViewGridAdd'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'下载方式'}
+                  {'更多资源'}
                 </p>
                 <span>👀</span>
               </Link>
