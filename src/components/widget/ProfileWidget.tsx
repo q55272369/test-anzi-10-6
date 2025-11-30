@@ -87,32 +87,6 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
               console.log(link,"-------------------")
              
             ))} */}
-             <Link
-                key={'aaa'}
-                href={'/about'}
-                // target="_blank"
-                rel="noopener noreferrer"
-                className={classNames(
-                  'leading-0 w-full transform cursor-pointer items-center justify-center rounded-lg text-white transition duration-300 ease-in-out hover:scale-95 md:h-full md:w-auto md:rounded-xl lg:rounded-2xl',
-                  true
-                    ? 'aspect-square md:aspect-auto md:gap-x-0.5 md:px-1.5 lg:gap-x-1.5 lg:px-3'
-                    : 'aspect-square',
-                  'bg-gradient-to-tr',
-                  'from-neutral-300 dark:from-neutral-700',
-                  'to-neutral-200 dark:to-neutral-600',
-                   'flex'
-                )}
-                style={{
-                  backgroundImage: 'linear-gradient(to top right, #0d1117, #0d2235) !important',
-                }}
-              >
-                <LinkIcon icon={'FaStar'} hasId={!!true} />
-                <p className="hidden md:block md:text-xs lg:text-base">
-                  {'资源介绍'}
-                </p>
-                <span>🎉</span>
-              </Link>
-
               <Link
                 key={'bbb'}
                 href={'/pay'}
@@ -134,35 +108,9 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
               >
                 <LinkIcon icon={'PiCrownFill'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'会员说明'}
+                  {'上车说明（必看！）'}
                 </p>
                 <span>👑</span>
-              </Link>
-
-               <Link
-                key={'ccc'}
-                href={'/download'}
-                // target="_blank"
-                rel="noopener noreferrer"
-                className={classNames(
-                  'leading-0 w-full transform cursor-pointer items-center justify-center rounded-lg text-white transition duration-300 ease-in-out hover:scale-95 md:h-full md:w-auto md:rounded-xl lg:rounded-2xl',
-                  true
-                    ? 'aspect-square md:aspect-auto md:gap-x-0.5 md:px-1.5 lg:gap-x-1.5 lg:px-3'
-                    : 'aspect-square',
-                  'bg-gradient-to-tr',
-                  'from-neutral-300 dark:from-neutral-700',
-                  'to-neutral-200 dark:to-neutral-600',
-                   'flex'
-                )}
-                style={{
-                  backgroundImage: 'linear-gradient(to top right, #0a69c6, #0088fa) !important',
-                }}
-              >
-                <LinkIcon icon={'FaDownload'} hasId={!!true} />
-                <p className="hidden md:block md:text-xs lg:text-base">
-                  {'下载方式'}
-                </p>
-                <span>👀</span>
               </Link>
           </div>
         </div>
