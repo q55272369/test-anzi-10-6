@@ -103,7 +103,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: 'linear-gradient(to top right, #0d1117, #0d2235) !important',
+                  backgroundImage: 'linear-gradient(to top right, #b80ce4, #2c16ab) !important',
                 }}
               >
                 <LinkIcon icon={'FaStar'} hasId={!!true} />
@@ -129,14 +129,14 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: 'linear-gradient(to top right, #FF69B4, #bf65ad) !important',
+                  backgroundImage: 'linear-gradient(to top right, #1d1f29, #2a5eaa) !important',
                 }}
               >
                 <LinkIcon icon={'IoMdCloudDownload'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'下载说明'}
                 </p>
-                <span>❓</span>
+                <span>❔</span>
               </Link>
 
                <Link
