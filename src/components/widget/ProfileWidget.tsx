@@ -110,7 +110,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'资源介绍'}
                 </p>
-                <span>💎</span>
+                <span></span>
               </Link>
 
               <Link
@@ -136,7 +136,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'下载说明'}
                 </p>
-                <span>❔</span>
+                <span></span>
               </Link>
 
                <Link
@@ -162,7 +162,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'更多资源'}
                 </p>
-                <span>👀</span>
+                <span></span>
               </Link>
           </div>
         </div>
