@@ -106,7 +106,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                   backgroundImage: 'linear-gradient(to top right, #FF69B4, #bf65ad) !important',
                 }}
               >
-                <LinkIcon icon={'PiCrownFill'} hasId={!!true} />
+                <LinkIcon icon={'TbHandClick'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'上车说明（必看！）'}
                 </p>
