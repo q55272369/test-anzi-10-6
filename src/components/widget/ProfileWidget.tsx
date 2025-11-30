@@ -106,9 +106,9 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                   backgroundImage: 'linear-gradient(to top right, #b80ce4, #2c16ab) !important',
                 }}
               >
-                <LinkIcon icon={'FaStar'} hasId={!!true} />
+                <LinkIcon icon={'FaCrown'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'资源介绍'}
+                  {'入会说明'}
                 </p>
                 <span></span>
               </Link>
