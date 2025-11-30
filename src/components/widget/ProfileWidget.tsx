@@ -89,7 +89,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
             ))} */}
               <Link
                 key={'bbb'}
-                href={'/pay'}
+                href={'/about'}
                 // target="_blank"
                 rel="noopener noreferrer"
                 className={classNames(
