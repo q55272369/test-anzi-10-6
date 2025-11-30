@@ -108,7 +108,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
               >
                 <LinkIcon icon={'TbHandClick'} hasId={!!true} />
                 <p className="hidden md:block md:text-xs lg:text-base">
-                  {'会员说明'}
+                  {'入会说明'}
                 </p>
                 <span></span>
               </Link>
