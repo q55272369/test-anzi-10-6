@@ -18,8 +18,8 @@ export const StatsWidget = ({ data }: { data: BlogStats }) => {
         <div className="flex h-[58%] w-full flex-row items-start overflow-hidden px-3.5 pt-5  md:flex-row md:items-center md:justify-center md:space-x-3 md:px-3 md:py-2.5 lg:space-x-4 lg:px-5 lg:py-4">
         
            <div className='flex'>
-           <span className="md:text-3xl md:font-medium lg:text-3xl mr-3 text-red-600">👉暗号001A</span>
-           <span className="md:text-3xl md:font-medium  font-bold">使用方式请查看“会员说明”</span>
+           <span className="md:text-3xl md:font-medium lg:text-3xl mr-3 text-red-600">暗号：001A</span>
+           <span className="md:text-3xl md:font-medium  font-bold">使用方式请查看会员说明</span>
            </div>
          
         </div>
