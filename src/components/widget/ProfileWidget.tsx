@@ -110,7 +110,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'上车说明（必看！）'}
                 </p>
-                <span>👑</span>
+                <span></span>
               </Link>
           </div>
         </div>
