@@ -103,7 +103,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: 'linear-gradient(to top right, #0d1117, #0d2235) !important',
+                  backgroundImage: 'linear-gradient(to top right, #d10ddb, #ad11d4) !important',
                 }}
               >
                 <LinkIcon icon={'FaStar'} hasId={!!true} />
@@ -136,7 +136,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                 <p className="hidden md:block md:text-xs lg:text-base">
                   {'下载说明'}
                 </p>
-                <span>❓</span>
+                <span>❔</span>
               </Link>
 
                <Link
@@ -155,7 +155,7 @@ export const ProfileWidget = ({ data }: { data: ProfileWidgetType }) => {
                    'flex'
                 )}
                 style={{
-                  backgroundImage: 'linear-gradient(to top right, #0a69c6, #0088fa) !important',
+                  backgroundImage: 'linear-gradient(to top right, #071185, #06b6c9) !important',
                 }}
               >
                 <LinkIcon icon={'HiOutlineViewGridAdd'} hasId={!!true} />
